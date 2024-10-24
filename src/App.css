@@ -1,0 +1,100 @@
+*{
+  margin: 0%;
+  padding: 0%;
+}
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  color: white;
+}
+.loginContainer{
+  margin-top: 15rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.userLabel{
+  font-size: 1rem;
+  font-weight: 600;
+}
+.userInput{
+  font-size: 1rem;
+  padding: 0.3rem 0.6rem;
+  border-radius: 0.5rem;
+}
+.loginBtn{
+  padding: 0.5rem 2rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+  background-color: blue;
+  color: white;
+  cursor: pointer;
+  border: none;
+  border-radius: 0.7rem;
+}
+.loginBtn:hover{
+  background-color: aqua;
+}
+.profileContainer{
+  box-sizing: border-box;
+  border: 2px solid yellow;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  font-size: 1rem;
+  border-radius: 2rem;
+}
+.profileHeader{
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+.profileImg{
+  border-radius: 50%;
+  background-color: white;
+  object-fit: cover;
+  height: 7rem;
+}
+.profileHeaderSection-2{
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+.profileName{
+  font-size: x-large;
+}
+.profileHeader2Details{
+  display: flex;
+  justify-content: space-between;
+}
+.profileAddress{
+  display: flex;
+  flex-direction: column;
+}
+.section{
+  display: flex;
+  justify-content: space-between;
+}
+.innerSec{
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+.profileLabel{
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+.profileHeading{
+  font-size: xx-large;
+  font-weight: 600;
+  margin: 2rem 0;
+}
+.profileHeading1{
+  font-size: xx-large;
+  font-weight: 600;
+}
